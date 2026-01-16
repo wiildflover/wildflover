@@ -1,3 +1,0 @@
-# GitHub Prepare Tool - Requirements
-# Author: Wildflover
-# No external dependencies required - uses Python standard library only
