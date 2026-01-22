@@ -16,6 +16,7 @@ import zh from './locales/zh.json';
 import ja from './locales/ja.json';
 import ko from './locales/ko.json';
 import de from './locales/de.json';
+import es from './locales/es.json';
 
 // [CONSTANTS] LocalStorage key for language preference
 const LANGUAGE_STORAGE_KEY = 'wildflover_language';
@@ -28,7 +29,8 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'zh', name: 'Chinese', nativeName: '中文', flag: 'ZH', rtl: false },
   { code: 'ja', name: 'Japanese', nativeName: '日本語', flag: 'JA', rtl: false },
   { code: 'ko', name: 'Korean', nativeName: '한국어', flag: 'KO', rtl: false },
-  { code: 'de', name: 'German', nativeName: 'Deutsch', flag: 'DE', rtl: false }
+  { code: 'de', name: 'German', nativeName: 'Deutsch', flag: 'DE', rtl: false },
+  { code: 'es', name: 'Spanish', nativeName: 'Español', flag: 'ES', rtl: false }
 ] as const;
 
 export type LanguageCode = typeof SUPPORTED_LANGUAGES[number]['code'];
@@ -55,7 +57,8 @@ const resources = {
   zh: { translation: zh },
   ja: { translation: ja },
   ko: { translation: ko },
-  de: { translation: de }
+  de: { translation: de },
+  es: { translation: es }
 };
 
 i18n
