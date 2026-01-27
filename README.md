@@ -133,10 +133,6 @@ wildflover/
 │       ├── backgrounds/          # Background images
 │       ├── icons/                # App icons
 │       └── learning/             # Tutorial images
-├── managers/                     # External tools
-│   ├── cslol-diag.exe           # Diagnostic tool
-│   ├── mod-tools.exe            # Mod management
-│   └── wad-*.exe                # WAD file tools
 └── tools/                        # Development tools
     └── promo-generator/          # Promotional assets
 ```
@@ -280,7 +276,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Tauri](https://tauri.app/) - Desktop framework
 - [React](https://react.dev/) - UI library
-- [cslol-manager](https://github.com/LeagueToolkit/cslol-manager) - Mod tools
 - [Riot Games](https://www.riotgames.com/) - League of Legends assets
 
 ---
@@ -298,4 +293,5 @@ Wildflover is not endorsed by Riot Games and does not reflect the views or opini
 <p align="center">
   Made with ♥ by <a href="https://github.com/wiildflover">Wildflover</a>
 </p>
+
 
